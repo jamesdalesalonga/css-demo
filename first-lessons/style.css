@@ -1,0 +1,55 @@
+body {
+    background-color:beige;
+}
+
+h1, h2 {
+    /* This is an example of CSS Grouping Selector */
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategrey;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* These three styling are the examples of element selector */
+
+/* * {
+    text-align: center;
+    color: blue;
+} */
+
+/* CSS Universal Selector */
+
+
+/* CSS ID Selector */
+
+#content {
+    background-color: cornflowerblue;
+}
+
+/* CSS Class Selector */
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-justify {
+    text-align: justify;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.color-red {
+    color: red;
+}

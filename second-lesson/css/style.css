@@ -1,0 +1,67 @@
+body {
+    /* background-color: darkgray;
+    background-image: url("../img/hero-img.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-attachment: fixed;
+    background-size: auto; */
+
+    background: darkgray url("../img/hero-img.png") no-repeat fixed  bottom right;
+    /* Shorthand Method */
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    margin: 100px;
+    padding: 100px;
+    border: 1px solid black;
+    background: white;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: orangered;
+}
+
+.font-color-gray {
+    color: gray;
+}
+
+.font-color-orange {
+    color: orangered;
+}
+
+.font-bold {
+    font-weight: 900;
+}
+
+.class-button {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid black 1px;
+    border-radius: 20px;
+    background-color: darkslategray;
+    color: white;
+}
+
+.class-button:hover {
+    border: solid red 1px;
+    background-color: orangered;
+    color: white;
+}
